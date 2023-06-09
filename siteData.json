@@ -1,0 +1,37 @@
+{
+  "enableSearch": true,
+  "pages": [
+    {
+      "src": "404.md",
+      "title": "Page not found",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/QrCode.md",
+      "title": "QR Code Component",
+      "headings": {
+        "example-of-qr-code-component-usage-in-markdown": "Example of QR Code Component Usage in Markdown",
+        "source-code-for-the-qrcodeprocessor-class": "Source Code for the QrCodeProcessor class",
+        "different-qr-code-usages-in-markdown": "Different QR Code Usages in Markdown",
+        "1-url-qr-code-with-default-settings": "1. URL QR Code with Default Settings",
+        "2-text-qr-code-with-custom-size-and-margin": "2. Text QR Code with Custom Size and Margin",
+        "3-url-qr-code-with-custom-colors-and-error-correction-level": "3. URL QR Code with Custom Colors and Error Correction Level",
+        "4-text-qr-code-with-custom-caption": "4. Text QR Code with Custom Caption"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "index.md",
+      "title": "The Adventurer's Handbook to MarkBind",
+      "headings": {
+        "what-just-happened": "What just happened?",
+        "navigating-your-journey": "Navigating your journey",
+        "guide-to-markbind": "Guide to MarkBind",
+        "code-map-configuration-example": "Code: Map Configuration Example 🌎",
+        "adventure-essentials": "Adventure Essentials ⛰"
+      },
+      "headingKeywords": {}
+    }
+  ]
+}

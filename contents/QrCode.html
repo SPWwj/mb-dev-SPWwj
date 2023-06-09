@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="generator" content="MarkBind 4.1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mb-dev-SPWwj - QR Code Component</title>
+    <link rel="stylesheet" href="/mb-dev-SPWwj/markbind/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/mb-dev-SPWwj/markbind/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/mb-dev-SPWwj/markbind/glyphicons/css/bootstrap-glyphicons.min.css">
+    <link rel="stylesheet" href="/mb-dev-SPWwj/markbind/css/octicons.css">
+    <link rel="stylesheet" href="/mb-dev-SPWwj/markbind/material-icons/material-icons.css">
+    <link rel="stylesheet" href="/mb-dev-SPWwj/markbind/css/codeblock-dark.min.css"><link rel="stylesheet" href="/mb-dev-SPWwj/markbind/css/markbind.min.css"><script src="/mb-dev-SPWwj/markbind/js/polyfill.min.js"></script>
+    <script src="/mb-dev-SPWwj/markbind/js/vue.min.js"></script>
+    <script src="/mb-dev-SPWwj/markbind/js/markbind.min.js"></script>
+    <script src="QrCode.page-vue-render.js"></script>
+    <script src="/mb-dev-SPWwj/markbind/js/jquery.min.js"></script><link rel="stylesheet" href="/mb-dev-SPWwj/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/mb-dev-SPWwj/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
+    
+  <link rel="stylesheet" href="/mb-dev-SPWwj/stylesheets/main.css">
+</head>
+<script>
+  const baseUrl = '/mb-dev-SPWwj'
+</script>
+<body >
+<div id="app" data-server-rendered="true"><header sticky=""><div data-v-15113a2f><nav class="navbar navbar-expand-md d-print-none navbar-dark bg-dark" data-v-15113a2f><div class="container-fluid" data-v-15113a2f><div class="navbar-left" data-v-15113a2f><a href="/mb-dev-SPWwj/index.html" title="Home" class="navbar-brand" data-v-15113a2f>MarkBind Developer Test Site</a></div> <div class="navbar-default" data-v-15113a2f><ul class="navbar-nav me-auto mt-2 mt-lg-0" data-v-15113a2f> <li data-v-15113a2f><a href="/mb-dev-SPWwj/contents/QrCode.html" class="nav-link" data-v-15113a2f>QR Code</a></li></ul></div> <ul class="navbar-nav navbar-right" data-v-15113a2f><li data-v-15113a2f><form class="navbar-form" data-v-15113a2f><div class="dropdown" style="position:relative;" data-v-2955e59c><input data-bs-toggle="dropdown" type="text" placeholder="Search" autocomplete="off" value="" class="form-control" data-v-2955e59c> <div class="form-control placeholder-div-hidden" data-v-2955e59c>
+      Search
+    </div> <ul class="dropdown-menu search-dropdown-menu d-none dropdown-menu-end" data-v-2955e59c></ul></div></form></li></ul></div></nav> <div class="lower-navbar-container" style="display:none;" data-v-15113a2f><!----> <!----></div></div></header> <div id="flex-body"><nav id="site-nav" data-v-e8c82f88><div class="site-nav-top" data-v-e8c82f88><div class="fw-bold mb-2" style="font-size:1.25rem;" data-v-e8c82f88>Contents</div></div> <div class="nav-component slim-scroll" data-v-e8c82f88><div class="site-nav-root"><ul class="site-nav-list site-nav-list-root" data-v-e8c82f88><li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-0" data-v-e8c82f88><a href="/mb-dev-SPWwj/index.html" data-v-e8c82f88>My Test Playground 💻</a></div></li> <li data-v-e8c82f88><div onclick="handleSiteNavClick(this)" class="site-nav-default-list-item site-nav-list-item-0" data-v-e8c82f88><a href="/mb-dev-SPWwj/contents/QrCode.html" data-v-e8c82f88>QR Code</a></div></li> <!----></ul></div></div> <collapse-expand-buttons data-v-e8c82f88></collapse-expand-buttons> <!----></nav> <div id="content-wrapper"><breadcrumb></breadcrumb> <br> <h2 id="example-of-qr-code-component-usage-in-markdown"><span id="example-of-qr-code-component-usage-in-markdown" class="anchor"></span>Example of QR Code Component Usage in Markdown<a href="#example-of-qr-code-component-usage-in-markdown" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h2> <p>In your XML or HTML file, you can include the QR code element like this:</p> <qr-code data="https://markbind.org/" size="10" margin="4" ec-level="H" color="red" background="white" type="svg" alt="Markbind QR Code" caption="Markbind QR Code" style="width:100%;height:100%;border:2px solid black;"></qr-code> <p>This will generate a QR code with the following characteristics:</p> <ul><li>The encoded data is the URL <code class="hljs inline no-lang">https://markbind.org/</code>.</li> <li>The size of the QR code is 10.</li> <li>The margin around the QR code is 4.</li> <li>The error correction level is <code class="hljs inline no-lang">H</code>.</li> <li>The QR code is red, on a white background.</li> <li>The QR code is output as an SVG.</li> <li>The alternative text for the QR code (for screen readers) is &quot;Spirify QR Code&quot;.</li> <li>The caption underneath the QR code is &quot;Spirify QR Code&quot;.</li> <li>The QR code is styled with a width and height of 100%, and a 2px solid black border.</li></ul> <h2 id="source-code-for-the-qrcodeprocessor-class"><span id="source-code-for-the-qrcodeprocessor-class" class="anchor"></span>Source Code for the <code class="hljs inline no-lang">QrCodeProcessor</code> class<a href="#source-code-for-the-qrcodeprocessor-class" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h2> <p>The <code class="hljs inline no-lang">QrCodeProcessor</code> class is responsible for generating the QR code based on the parameters passed in the QR code element. Here is the source code:</p> <pre><code class="hljs xml"><span>import cheerio from 'cheerio';
+</span><span>import { NodeOrText } from '../utils/node';
+</span><span>import qr from 'qr-image';
+</span><span>
+</span><span>class QrCodeProcessor {
+</span><span>    process(node: NodeOrText) {
+</span><span>        node.name = 'div';
+</span><span>        if (node.attribs &amp;&amp; node.attribs.data) {
+</span><span>            const data = node.attribs.data;
+</span><span>            const options = {
+</span><span>                size: parseInt(node.attribs.size) || 10,
+</span><span>                margin: parseInt(node.attribs.margin) || 4,
+</span><span>                ecLevel: node.attribs.ecLevel || 'H',
+</span><span>                color: node.attribs.color || 'black',
+</span><span>                background: node.attribs.background || 'white',
+</span><span>                caption: node.attribs.caption || '',
+</span><span>                alt: node.attribs.alt || '',
+</span><span>            };
+</span><span>            const qrSvg = this.generateQRCodeSync(data, options);
+</span><span>            let styles = {
+</span><span>                textAlign: 'center',
+</span><span>                ...node.attribs.style
+</span><span>            };
+</span><span>            let stylesString = Object.entries(styles).map(([prop, value]) =&gt; `${prop}: ${value}`).join('; ');
+</span><span>            const $wrapper = cheerio.load(`<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;${stylesString}&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>`);
+</span><span>            $wrapper('div').append(qrSvg);
+</span><span>            if (options.caption) {
+</span><span>                $wrapper('div').append(`<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>${options.caption}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>`);
+</span><span>            }
+</span><span>            cheerio(node).append($wrapper.html());
+</span><span>            return node;
+</span><span>        }
+</span><span>        return node;
+</span><span>    }
+</span><span>    generateQRCodeSync(data: string, options: any) {
+</span><span>        if (typeof data !== 'string') {
+</span><span>            data = JSON.stringify(data);
+</span><span>        }
+</span><span>        let qrSvg = qr.imageSync(data, { type: 'svg', size: options.size, margin: options.margin, ec_level: options.ecLevel });
+</span><span>        let $ = cheerio.load(qrSvg, { xmlMode: true });
+</span><span>        $('path').attr('fill', options.color);
+</span><span>        qrSvg = $.html();
+</span><span>        return qrSvg;
+</span><span>    }
+</span><span>}
+</span><span>export default QrCodeProcessor;
+</span></code></pre><h2 id="different-qr-code-usages-in-markdown"><span id="different-qr-code-usages-in-markdown" class="anchor"></span>Different QR Code Usages in Markdown<a href="#different-qr-code-usages-in-markdown" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h2> <h3 id="1-url-qr-code-with-default-settings"><span id="1-url-qr-code-with-default-settings" class="anchor"></span>1. URL QR Code with Default Settings<a href="#1-url-qr-code-with-default-settings" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <qr-code data="https://markbind.org/"></qr-code> <p>This will generate a default QR code encoding the URL <code class="hljs inline no-lang">https://markbind.org/</code>.</p> <h3 id="2-text-qr-code-with-custom-size-and-margin"><span id="2-text-qr-code-with-custom-size-and-margin" class="anchor"></span>2. Text QR Code with Custom Size and Margin<a href="#2-text-qr-code-with-custom-size-and-margin" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <qr-code data="Hello, MarkBind!" size="15" margin="2"></qr-code> <p>This will generate a QR code encoding the text <code class="hljs inline no-lang">Hello, MarkBind!</code> with a size of 15 and a margin of 2.</p> <h3 id="3-url-qr-code-with-custom-colors-and-error-correction-level"><span id="3-url-qr-code-with-custom-colors-and-error-correction-level" class="anchor"></span>3. URL QR Code with Custom Colors and Error Correction Level<a href="#3-url-qr-code-with-custom-colors-and-error-correction-level" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <qr-code data="https://github.com/MarkBind" ec-level="Q" color="blue" background="yellow"></qr-code> <p>This will generate a QR code encoding the URL <code class="hljs inline no-lang">https://github.com/MarkBind</code> with an error correction level of <code class="hljs inline no-lang">Q</code>, a blue color code, and a yellow background.</p> <h3 id="4-text-qr-code-with-custom-caption"><span id="4-text-qr-code-with-custom-caption" class="anchor"></span>4. Text QR Code with Custom Caption<a href="#4-text-qr-code-with-custom-caption" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h3> <qr-code data="MarkBind rocks!" caption="Scan to see a cool message!"></qr-code> <p>This will generate a QR code encoding the text <code class="hljs inline no-lang">MarkBind rocks!</code> and a caption that says <code class="hljs inline no-lang">Scan to see a cool message!</code>.</p> <i id="scroll-top-button" onclick="handleScrollTop()" aria-hidden="true" class="fa fa-arrow-circle-up fa-lg d-print-none"></i></div> <nav id="page-nav" data-v-e8c82f88><div class="nav-component slim-scroll" data-v-e8c82f88></div> <!----></nav> <scroll-top-button></scroll-top-button></div> <footer><div class="text-center"><small>[Generated by <a href="https://markbind.org/">MarkBind 4.1.0</a>]</small></div></footer></div>
+</body><script src="/mb-dev-SPWwj/markbind/js/bootstrap-utility.min.js"></script>
+<script>
+  MarkBind.setupWithSearch()
+</script>
+</html>
