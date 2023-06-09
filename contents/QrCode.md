@@ -8,6 +8,21 @@
 
 In your XML or HTML file, you can include the QR code element like this:
 
+```xml
+<qr-code 
+    data="https://markbind.org/"
+    size="10"
+    margin="4"
+    ec-level="H"
+    color="red"
+    background="white"
+    type="svg"
+    alt="Markbind QR Code"
+    caption="Markbind QR Code"
+    style="width:100%;height:100%;border:2px solid black;"
+></qr-code>
+```
+
 <qr-code 
     data="https://markbind.org/"
     size="10"
@@ -92,13 +107,30 @@ export default QrCodeProcessor;
 
 ### 1. URL QR Code with Default Settings
 
+```xml
+<qr-code 
+    data="https://markbind.org/"
+></qr-code>
+```
+
+This will generate a default QR code encoding the URL `https://markbind.org/`.
+
 <qr-code 
     data="https://markbind.org/"
 ></qr-code>
 
-This will generate a default QR code encoding the URL `https://markbind.org/`.
-
 ### 2. Text QR Code with Custom Size and Margin
+
+
+```xml
+<qr-code 
+    data="Hello, MarkBind!"
+    size="15"
+    margin="2"
+></qr-code>
+```
+
+This will generate a QR code encoding the text `Hello, MarkBind!` with a size of 15 and a margin of 2.
 
 <qr-code 
     data="Hello, MarkBind!"
@@ -106,9 +138,19 @@ This will generate a default QR code encoding the URL `https://markbind.org/`.
     margin="2"
 ></qr-code>
 
-This will generate a QR code encoding the text `Hello, MarkBind!` with a size of 15 and a margin of 2.
 
 ### 3. URL QR Code with Custom Colors and Error Correction Level
+
+```xml
+<qr-code 
+    data="https://github.com/MarkBind"
+    ec-level="Q"
+    color="blue"
+    background="yellow"
+></qr-code>
+```
+
+This will generate a QR code encoding the URL `https://github.com/MarkBind` with an error correction level of `Q`, a blue color code, and a yellow background.
 
 <qr-code 
     data="https://github.com/MarkBind"
@@ -117,13 +159,20 @@ This will generate a QR code encoding the text `Hello, MarkBind!` with a size of
     background="yellow"
 ></qr-code>
 
-This will generate a QR code encoding the URL `https://github.com/MarkBind` with an error correction level of `Q`, a blue color code, and a yellow background.
 
 ### 4. Text QR Code with Custom Caption
+
+
+```xml
+<qr-code 
+    data="MarkBind rocks!"
+    caption="Scan to see a cool message!"
+></qr-code>
+```
+
+This will generate a QR code encoding the text `MarkBind rocks!` and a caption that says `Scan to see a cool message!`.
 
 <qr-code 
     data="MarkBind rocks!"
     caption="Scan to see a cool message!"
 ></qr-code>
-
-This will generate a QR code encoding the text `MarkBind rocks!` and a caption that says `Scan to see a cool message!`.
