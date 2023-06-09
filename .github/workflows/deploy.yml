@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build & Deploy MarkBind site
-        uses: SPWwj/markbind@branch-qr-code
+        uses: MarkBind/markbind-action@v2
         with:
           token: ${{ secrets.RepoMb }}
